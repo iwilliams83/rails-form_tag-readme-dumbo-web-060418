@@ -710,6 +710,7 @@ Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
 Started GET "/posts/new" for 127.0.0.1 at 2018-06-30 23:53:11 +0000
 Processing by PostsController#new as HTML
+<<<<<<< HEAD
   Rendered posts/new.html.erb within layouts/application (3.1ms)
 Completed 200 OK in 172ms (Views: 161.2ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
@@ -742,3 +743,5 @@ Processing by PostsController#index as HTML
   Rendered posts/index.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.1ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> dbdbb7d6e4c92af83e3857a2592edfec5fe21591
